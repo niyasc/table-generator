@@ -2,15 +2,17 @@
     padding-top: 0px;
 }
 
-header a, footer a {
+header a,
+footer a {
     color: #fff;
     text-decoration: none;
 }
 
-    header a:hover, footer a:hover {
-        color: #1F669C;
-        text-decoration: none;
-    }
+header a:hover,
+footer a:hover {
+    color: #1F669C;
+    text-decoration: none;
+}
 
 h1 span {
     color: #1F669C;
@@ -20,24 +22,18 @@ header p span {
     color: #fff;
 }
 
-header #title  {
-    display:none;
+header #title {
+    display: none;
 }
 
 header #icon {
-    float:left;
-    margin-top:35px;
+    float: left;
+    margin-top: 35px;
 }
 
-header pre {
-    float:left;
-    background-color: transparent;
-    border: 0px;
-    color: #FFFFFF;
-    font-weight: 900;
-}
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -53,26 +49,26 @@ html, body {
     width: 400px;
 }
 
-    #controls label {
-        float: left;
-        display:block;
-        margin:6px 10px 0 30px;
-        width:100px;
-    }
-    
-    #controls div div {
-        margin-left:140px;
-    }
+#controls label {
+    float: left;
+    display: block;
+    margin: 6px 10px 0 30px;
+    width: 100px;
+}
 
-    #controls select {
-        width: 200px;
-    }
+#controls div div {
+    margin-left: 140px;
+}
 
-    #controls input {
-        width: auto;
-        display:block;
-    }
-    
+#controls select {
+    width: 200px;
+}
+
+#controls input {
+    width: auto;
+    display: block;
+}
+
 button {
     margin-left: 125px;
     margin-top: 15px;
@@ -94,10 +90,15 @@ footer {
     color: inherit;
 }
 
-header, footer {
-    background-color: #3CC255 !important;
+header,
+footer {
+    background-color: #2e2e2e !important;
 }
 
 abbr[title] {
     border-bottom: 1px dotted #eee;
+}
+
+input {
+    border-radius: 0;
 }
