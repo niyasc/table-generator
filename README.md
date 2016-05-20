@@ -1,11 +1,10 @@
-ascii-tables
+Table Generator
 ============
 
-Quickly format tables in ASCII. Great for code comments, or Github Markdown!
+Quickly convert text data to tabular data in different formats.
 
-Play with it: http://ozh.github.io/ascii-tables/
 
-### Input text like this
+## Sample Input
 
 ```
 Col1	Col2	Col3
@@ -14,9 +13,9 @@ Separate	columns	with a tab or 4 spaces
 This is a row with only one cell
 ```
 
-Press **Create Table** to get something like:
+## Sample Output
 
-### Ascii table (mysql style)
+### ASCII Table (MySQL style)
 ```
 +----------------------------------+---------+------------------------+
 |               Col1               |  Col2   |          Col3          |
@@ -27,7 +26,7 @@ Press **Create Table** to get something like:
 +----------------------------------+---------+------------------------+
 ```
 
-### Ascii table 2 (alt style)
+### ASCII Table (Alt. style)
 ```
 +==================================+================================+======+
 |               Col1               |              Col2              | Col3 |
@@ -40,7 +39,7 @@ Press **Create Table** to get something like:
 +----------------------------------+--------------------------------+------+
 ```
 
-### Unicode table
+### Unicode Table
 ```
 ╔══════════════════════════════════╦═════════╦════════════════════════╗
 ║               Col1               ║  Col2   ║          Col3          ║
@@ -60,7 +59,7 @@ Press **Create Table** to get something like:
 | This is a row with only one cell |         |                        |
 ```
 
-### reStructuredText table
+### Re StructuredText table
 ```
  ================================== ========= ======================== 
                 Col1                  Col2              Col3           
@@ -70,7 +69,7 @@ Press **Create Table** to get something like:
   This is a row with only one cell                                     
  ================================== ========= ======================== 
 ```
-### Or even a boring html &lt;table>
+### Also possible to generate table in `html` format.
 
 
 
