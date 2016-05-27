@@ -19,7 +19,10 @@ $(function() {
     });
 });
 
-function createTable() {
+function createTable(e) {
+    //Prevent form submission
+    e.preventDefault();
+    
     // set up the style
     var cTL, cTM, cTR;
     var cML, cMM, cMR;
